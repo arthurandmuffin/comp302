@@ -1,4 +1,4 @@
-(* 1. Naive approach: Iterate through, take / drop based on index*)
+(* 1. Naive approach from ocaml website: Iterate through, take / drop based on index*)
 
 (* Use Case: Simple slicing for small lists where performance is not critical.
    Efficiency: O(n), not tail-recursive; the call stack grows linearly with the list size.
